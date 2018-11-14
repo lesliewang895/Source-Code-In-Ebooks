@@ -19,6 +19,7 @@
 
             function geoError(errorObj) {
                 alert(errorObj.message);
+                alert("not ok");
             }
 
             navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
